@@ -1,0 +1,27 @@
+<div class="product-service">
+    <div class="product-service-bg"><img src="../../../assets/images/product-service-bg.svg"></div>
+    <div class="product-service-desc">
+        <p>Folgende Produkte und Servicedienstleistungen können wir dir empfehlen. </p>
+        <p>Damit werden dir deine Lieblingsstücke <br> noch so lange wie möglich Freude bereiten.</p>
+    </div>
+    <div class="product-service-main">
+        <div class="title">Produkte & Service</div>
+        <div class="carousel">
+            <div class="carousel-main">
+                <ul [ngStyle]="{'left': left}">
+                    <li><img src="../../../assets/images/product-carousel.png" alt=""></li>
+                    <li><img src="../../../assets/images/sustain-carousel.svg" alt=""></li>
+                    <li><img src="../../../assets/images/product-carousel.png" alt=""></li>
+                    <li><img src="../../../assets/images/sustain-carousel.svg" alt=""></li>
+                </ul>
+            </div>
+            <div class="carousel-desc">
+                <p>Cold Power 2in1 </p>
+                <p>Für weiße Wäsche / bunte / schwarze </p>
+            </div>
+            <div class="left-btn" (click)="leftMove()"><img src="../../../assets/images/left-btn.svg" alt=""></div>
+            <div class="right-btn" (click)="rightMove()"><img src="../../../assets/images/right-btn.svg" alt=""></div>
+        </div>
+
+    </div>
+</div>

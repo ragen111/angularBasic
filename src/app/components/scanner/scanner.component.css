@@ -1,0 +1,68 @@
+.scanner {
+    margin-top: -53px;
+}
+
+.scanner-desc {
+    width: 318px;
+    height: 106px;
+    position: relative;
+    left: 50%;
+    margin-left: -159px;
+    font-family: Patua One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #3F3F3F;
+}
+
+.scanlabel-btn,
+.chooselabel-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.scanlabel-btn img {
+    margin-right: 3px;
+}
+
+.scanlabel-btn button,
+.chooselabel-btn button {
+    width: 345px;
+    height: 54px;
+    background: #4390ED;
+    border-radius: 4px;
+    border: none;
+    font-family: Patua One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.chooselabel-btn button {
+    background: #394A70;
+}
+
+.overview {
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+.overview a {
+    display: flex;
+    font-family: Patua One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #394A70;
+}

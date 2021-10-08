@@ -1,0 +1,138 @@
+.product-service-bg img {
+    width: 100%;
+}
+
+.product-service {
+    position: relative;
+}
+
+.product-service-desc {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    margin-left: -164px;
+    width: 328px;
+}
+
+.product-service-desc p:first-child {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    font-family: Patua One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #fff;
+}
+
+.product-service-desc p:last-child {
+    height: 61px;
+    font-family: Patua One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #fff;
+}
+
+.product-service-main {
+    position: absolute;
+    top: 280px;
+    height: 327px;
+    width: 344px;
+    left: 50%;
+    margin-left: -172px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.title {
+    font-family: Patua One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #394A70;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.carousel {
+    position: relative;
+    width: 295px;
+    height: 253px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.carousel-main {
+    border-radius: 5px 5px 0px 0px;
+    overflow: hidden;
+}
+
+.carousel-main ul {
+    position: relative;
+    width: 400%;
+    display: flex;
+}
+
+.carousel-main ul li:nth-child(odd) {
+    border: 2px solid #FFFFFF;
+}
+
+.carousel-main ul li {
+    width: 25%;
+}
+
+.carousel-main img {
+    width: 100%;
+}
+
+.carousel-desc {
+    margin-top: 15px;
+    padding-left: 22px;
+}
+
+.carousel-desc p:first-child {
+    font-family: Patua One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4A4A4A;
+}
+
+.carousel-desc p:last-child {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #4A4A4A;
+}
+
+.left-btn,
+.right-btn {
+    display: inline-block;
+    position: absolute;
+    top: 85px;
+}
+
+.left-btn {
+    left: -36px;
+}
+
+.right-btn {
+    right: -36px;
+}

@@ -1,0 +1,66 @@
+.washer-tags-desc {
+    margin-bottom: 29px;
+    overflow: hidden;
+}
+
+.tags-title {
+    font-family: Patua One;
+    color: #3F3F3F;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 27px 0 15px 0;
+    height: 120px;
+}
+
+.tags-main {
+    width: 345px;
+    /* height: 446.93px; */
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 13px 0 13px 11px;
+    margin: 0 auto;
+}
+
+.tags-main ul li {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.tags-main ul li:first-child {
+    margin-top: 0;
+}
+
+.tags-img img {
+    width: 72px;
+}
+
+.tags-img {
+    margin-right: 19px;
+}
+
+.tags-desc p:first-child {
+    width: 208px;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #3F3F3F;
+}
+
+.tags-desc p:last-child {
+    width: 208px;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #3F3F3F;
+}

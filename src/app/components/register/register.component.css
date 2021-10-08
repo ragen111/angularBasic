@@ -1,0 +1,76 @@
+.register {
+    position: relative;
+    width: 345px;
+    height: 435px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 132px;
+    padding-top: 56px;
+}
+
+.register-logo {
+    position: absolute;
+    top: -80px;
+    left: 104px;
+}
+
+.register-desc {
+    display: flex;
+    align-items: center;
+    width: 309px;
+    height: 121px;
+    font-family: Patua One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #3F3F3F;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.register-items {
+    padding-left: 54px;
+    margin-top: 5px;
+}
+
+.register-items img {
+    margin-right: 8px;
+}
+
+.register-items ul li {
+    /* margin-bottom: 14px; */
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3F3F3F;
+}
+
+.register-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+.register-btn button {
+    width: 308px;
+    height: 59px;
+    background: #394A70;
+    border-radius: 4px;
+    font-family: Patua One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    border: none;
+}

@@ -1,0 +1,24 @@
+.result-main {
+    background-color: #EFEFEF;
+}
+
+.wash-tip {
+    position: relative;
+    height: 186px;
+    background-color: #fff;
+    margin-top: -30px;
+}
+
+.wash-tip p {
+    position: absolute;
+    width: 328px;
+    height: 90px;
+    bottom: 36px;
+    left: 50%;
+    margin-left: -164px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #3F3F3F;
+    font-family: Source Sans Pro;
+}

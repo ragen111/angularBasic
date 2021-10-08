@@ -1,0 +1,25 @@
+<div class="sustainability">
+    <div class="sustainability-bg"><img src="../../../assets/images/sustainability-bg.svg" alt=""></div>
+    <div class="sustainability-desc">
+        <p>Nachhaltigkeit liegt dir <br> am Herzen?</p>
+        <p>Uns auch! Damit wir unsere Umwelt und unsere Wäsche noch besser schonen können, haben wir ein paar Artikel für dich zur Inspiration.</p>
+    </div>
+    <div class="sustainability-main">
+        <div class="title">Artikel Nachhaltigkeit</div>
+        <div class="carousel">
+            <div class="carousel-main">
+                <ul [ngStyle]="{'left': left}">
+                    <li><img src="../../../assets/images/product-carousel.png" alt=""></li>
+                    <li><img src="../../../assets/images/sustain-carousel.svg" alt=""></li>
+                    <li><img src="../../../assets/images/product-carousel.png" alt=""></li>
+                    <li><img src="../../../assets/images/sustain-carousel.svg" alt=""></li>
+                </ul>
+            </div>
+            <div class="carousel-desc">
+                Wie trennst du deinen <br> Müll richtig?
+            </div>
+            <div class="left-btn" (click)="leftMove()"><img src="../../../assets/images/left-btn.svg" alt=""></div>
+            <div class="right-btn" (click)="rightMove()"><img src="../../../assets/images/right-btn.svg" alt=""></div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,82 @@
+.footer {
+    background-color: #2371E2;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.footer-logo img {
+    width: 187px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin: 39px 0 50px 0;
+}
+
+.footer-links li {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.footer-links li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-links a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Patua One;
+}
+
+.footer-followus {
+    margin-bottom: 35px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.title a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Patua One;
+}
+
+.icon-links ul,
+.icon-links ul li {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-links ul li:nth-child(2) {
+    margin: 0 16px;
+}
+
+.icon-links img {
+    width: 40px;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #B9B9B9;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 16px 0;
+    font-family: Patua One;
+}
+
+.footer-copyright span:first-child {
+    margin-right: 10px;
+}

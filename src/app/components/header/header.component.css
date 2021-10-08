@@ -1,0 +1,11 @@
+.FTCS-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    background-color: #4390ED;
+}
+
+.FTCS-logo img {
+    width: 178px;
+}

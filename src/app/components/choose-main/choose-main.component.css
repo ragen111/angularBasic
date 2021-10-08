@@ -1,0 +1,123 @@
+.choose-main {
+    position: relative;
+    background-color: #6DAFFC;
+    overflow: hidden;
+}
+
+.washer-logo {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: -123px;
+}
+
+.washer-logo img {
+    width: 246px;
+}
+
+.wave-bg {
+    margin-top: 168px;
+    width: 100%;
+}
+
+.wave-bg img {
+    width: 100%;
+}
+
+.white-bg {
+    position: relative;
+    margin-top: -10px;
+    height: 121px;
+    background-color: #fff;
+}
+
+.white-bg p {
+    position: absolute;
+    width: 328px;
+    height: 90px;
+    bottom: 36px;
+    left: 50%;
+    margin-left: -164px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #3F3F3F;
+    font-family: Source Sans Pro;
+}
+
+.title {
+    width: 328px;
+    position: absolute;
+    top: 244px;
+    left: 50%;
+    margin-left: -164px;
+    font-family: Patua One;
+    font-size: 32px;
+    line-height: 38px;
+    color: #4A4A4A;
+    text-align: center;
+}
+
+.description {
+    position: absolute;
+    top: 292px;
+    left: 50%;
+    margin-left: -164px;
+    font-family: Source Sans Pro;
+    width: 328px;
+}
+
+.description p {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4A4A;
+    text-align: center;
+}
+
+.washer-tags {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 384px;
+    width: 346px;
+    left: 50%;
+    margin-left: -173px;
+}
+
+.washer-tags ul {
+    overflow: hidden;
+}
+
+.washer-tags ul li {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.washer-tags ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.washer-tags ul li img {
+    width: 75px;
+}
+
+.submit-btn {
+    position: absolute;
+    top: 1297px;
+    left: 50%;
+    margin-left: -172px;
+}
+
+.submit-btn button {
+    border: none;
+    width: 344px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    background: #394A70;
+    border-radius: 3px;
+    font-family: Patua One;
+}
